@@ -1,5 +1,3 @@
-(* Reference implementation of full interpreter for BU Fall2020 CS320 *)
-
 (* utility functions *)
 
 let rec implode (cs: char list): string =
