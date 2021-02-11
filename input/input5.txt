@@ -1,0 +1,18 @@
+InOutFun sin theta
+PushI 0
+PushN theta
+Equal
+PushI 0
+PushI 3
+If
+FunEnd
+PushI 90
+PushN x
+Bind
+PushN sin
+PushN x
+Call
+PushN x
+PushN x
+Add
+Quit

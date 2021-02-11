@@ -1,0 +1,27 @@
+PushB <true>
+PushN tempt
+Bind
+Fun second x
+PushN x
+PushN tempt
+And
+Return
+FunEnd
+PushB <false>
+PushN boo
+Bind
+Fun third y
+PushN second
+PushN y
+Call
+PushB <true>
+Or
+Return
+FunEnd
+PushB <false>
+PushN tempt
+Bind
+PushN third
+PushN boo
+Call
+Quit

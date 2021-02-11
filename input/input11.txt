@@ -1,0 +1,19 @@
+Fun triple x
+PushN x
+PushI 3
+Mul
+Return
+FunEnd
+PushN triple
+PushI 3
+Call
+Fun add5 x
+PushI 5
+PushN x
+Add
+Return
+FunEnd
+PushN add5
+PushI 20
+Call
+Quit

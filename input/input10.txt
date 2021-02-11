@@ -1,0 +1,26 @@
+Begin
+Fun yellow x
+PushN x
+Return
+FunEnd
+End
+PushN yellow
+PushS "pain pain go away"
+Call
+InOutFun always6 x
+PushI 6
+PushN x
+Bind
+FunEnd
+Pop
+PushI 4
+PushN a
+Bind
+Pop
+PushN always6
+PushN a
+Call
+PushN a
+PushN a
+Add
+Quit

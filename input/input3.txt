@@ -1,0 +1,13 @@
+Fun foo1 x
+PushN x
+PushI 100
+Add
+Return
+FunEnd
+PushI 12
+PushN x
+Bind
+PushN foo1
+PushN x
+Call
+Quit

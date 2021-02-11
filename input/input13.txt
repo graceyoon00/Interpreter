@@ -1,0 +1,23 @@
+Fun mul5 x
+PushN x
+PushI 5
+Mul
+Return
+FunEnd
+PushI 7
+PushN y
+Bind
+Fun test_13 z
+PushN z
+PushN y
+Call
+PushN z
+PushN y
+Call
+Mul
+Return
+FunEnd
+PushN test_13
+PushN mul5
+Call
+Quit

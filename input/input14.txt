@@ -1,0 +1,17 @@
+Fun and_false a
+PushN a
+PushB <false>
+And
+Return
+FunEnd
+PushB <true>
+PushN b
+Bind
+PushN and_false
+PushN b
+Call
+PushS "<true>"
+PushS "<false>"
+If
+Quit
+

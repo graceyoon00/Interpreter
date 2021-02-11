@@ -1,0 +1,25 @@
+Begin
+PushI 14
+PushN yet
+Bind
+Begin
+PushI 50
+PushN yet
+Bind
+Fun addY x
+Begin
+PushN x
+PushN yet
+Add
+End
+Return
+FunEnd
+PushN addY
+PushI 13
+Call
+End
+End
+PushN addY
+PushN yet
+Call
+Quit

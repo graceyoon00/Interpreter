@@ -1,0 +1,17 @@
+InOutFun test17 x
+PushN x
+PushI 9
+Add
+PushN x
+Bind
+FunEnd
+PushI 11
+PushN y
+Bind
+PushN test17
+PushN y
+Call
+PushN y
+PushI 5
+Add
+Quit

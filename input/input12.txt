@@ -1,0 +1,19 @@
+PushI 4
+PushN x
+Bind
+Fun DivX a
+PushN x
+PushN a
+Div
+Return
+FunEnd
+PushN DivX
+PushI 16
+Call
+PushI 12
+PushN b
+Bind
+PushN DivX
+PushN b
+Call
+Quit

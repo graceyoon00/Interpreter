@@ -1,0 +1,16 @@
+Fun function_test x
+PushN x
+Return
+FunEnd
+Fun equal2 y
+PushI 2
+PushN y
+Equal
+Return
+FunEnd
+PushN function_test
+PushN equal2
+Call
+PushI 3
+Call
+Quit

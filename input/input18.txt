@@ -1,0 +1,34 @@
+Fun mul18 x
+PushI 18
+PushN x
+Mul
+Return
+FunEnd
+InOutFun io_mul18 y
+PushN y
+PushI 18
+Mul
+PushN y
+Bind
+PushN y
+Return
+FunEnd
+PushI 3
+PushN a
+Bind
+PushN mul18
+PushN a
+Call
+PushN a
+PushI 2
+Add
+PushI 3
+PushN b
+Bind
+PushN io_mul18
+PushN b
+Call
+PushN b
+PushI 2
+Add
+Quit

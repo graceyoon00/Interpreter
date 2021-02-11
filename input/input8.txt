@@ -1,0 +1,27 @@
+Begin
+PushI 10
+PushN x
+Bind
+Fun DivX arg
+Fun Subx x
+PushN x
+PushN x
+Sub
+Return
+FunEnd
+PushN Divx
+PushN arg
+Call
+Return
+FunEnd
+PushI 5
+PushN x
+Bind
+PushN DivX
+PushN x
+Call
+End
+PushN DivX
+PushN x
+Call
+Quit

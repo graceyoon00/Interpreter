@@ -1,0 +1,20 @@
+Fun curried_and x
+Fun and y
+PushN x
+PushN y
+And
+Return
+FunEnd
+PushN and
+Return
+FunEnd
+PushN and_true
+PushN curried_and
+PushB <true>
+Call
+Swap
+Bind
+PushN and_true
+PushB <true>
+Call
+Quit

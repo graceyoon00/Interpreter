@@ -1,0 +1,20 @@
+PushI 45
+PushN x
+Bind
+Begin
+PushI 8
+PushN z
+Bind
+Fun test16 y
+Begin
+PushN x
+PushN y
+Equal
+End
+Return
+FunEnd
+PushN test16
+PushI 45
+Call
+End
+Quit

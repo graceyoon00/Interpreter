@@ -1,0 +1,24 @@
+Fun stop arg
+PushI 1
+Return
+FunEnd
+Fun factorial arg
+PushI 1
+PushN arg
+Sub
+PushI 1
+PushN arg
+Equal
+PushN stop
+PushN factorial
+If
+Swap
+Call
+PushN arg
+Mul
+Return
+FunEnd
+PushN factorial 
+PushI 10
+Call
+Quit

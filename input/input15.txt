@@ -1,0 +1,28 @@
+Begin
+Fun add8 x
+PushN x
+PushI 8
+Add
+Return
+FunEnd
+End
+PushN add8
+PushI 8
+Call
+Fun odd y
+Begin
+PushI 2
+PushN y
+Rem
+PushI 1
+Equal
+PushB <true>
+PushB <false>
+If
+End
+Return
+FunEnd
+PushN odd
+PushI 15
+Call
+Quit

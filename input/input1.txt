@@ -1,0 +1,25 @@
+Fun fun2 a
+PushN a
+PushN a
+Sub
+Return
+FunEnd
+Fun fun3 a
+PushI 20
+PushN d
+Bind
+PushI 23
+PushN a
+Sub
+PushN d
+Add
+Return
+FunEnd
+PushN fun3
+PushI 7
+Call
+PushN fun2
+PushI 5
+Call
+Sub
+Quit

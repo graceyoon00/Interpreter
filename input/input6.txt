@@ -1,0 +1,26 @@
+PushI 50
+PushN no
+Bind
+Begin
+Fun foo x
+Begin
+PushN x
+PushN no
+Sub
+End
+Return
+FunEnd
+PushN foo
+PushI 20
+Call
+End
+PushN x
+PushI 2
+Add
+PushI 10
+PushN no
+Bind
+PushN foo
+PushN no
+Call
+Quit

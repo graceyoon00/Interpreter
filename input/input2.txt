@@ -1,0 +1,23 @@
+Fun zooooom x
+PushN sleep
+PushI 14
+Call
+PushS "Credit no Credit"
+PushN x
+Concat
+Return
+FunEnd
+Fun dum y
+PushS "its me"
+Return
+FunEnd
+Pop
+Pop
+PushN zooooom
+PushS "I will "
+Call
+PushN dum
+PushI 12
+Call
+Concat
+Quit
